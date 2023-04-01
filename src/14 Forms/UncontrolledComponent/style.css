@@ -1,0 +1,40 @@
+*{
+   
+    margin: 0;
+    padding: 0;
+}
+section{
+    width: 100%;
+    height: 100vh;
+    background-color: #444;
+}
+
+article{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+/* .from-group{
+   display: flex;
+   flex-direction: column;
+} */
+
+.from-group>label{
+    font-size: 30px;
+    color: gray;
+    
+}
+.from-group>input{
+    width: 300px;
+    padding: 10px;
+    padding-bottom:15px;
+    border-radius: 10px;
+}
+button{
+    background-color: red;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border-radius: 10px;
+}

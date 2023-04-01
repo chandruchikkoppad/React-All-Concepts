@@ -1,0 +1,68 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: #111;
+}
+#navBlock {
+  width: 100%;
+  border-bottom: 1px solid orange;
+}
+#navBlock > article {
+  display: flex;
+  /* background-color: #efefef; */
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+  height: 70px;
+  margin: 0 auto;
+}
+.authBlock ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.authBlock ul li {
+  padding: 10px;
+}
+.authBlock ul li a {
+  text-decoration: none;
+  background-color: rgb(220, 153, 29);
+  padding: 10px;
+  border-radius: 5px;
+}
+.authBlock ul li a:hover {
+  background: orange;
+}
+.logoBlock {
+  color: orange;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* ==================== */
+#Register-Block {
+  width: 100%;
+}
+#Register-Block article {
+  width: 50%;
+  margin: 0 auto;
+  height: 80vh;
+  background-color: #efefef;
+  text-align: center;
+}
+#Register-Block article h1 {
+  font-weight: bolder;
+  font-size: xx-large;
+}
+#Register-Block article label {
+  font-weight: bold;
+  font-size: 20px;
+  text-align: end;
+}
+#Register-Block article input {
+}

@@ -1,0 +1,46 @@
+[
+  {
+    "course-name": "MernStack",
+    "Trainer": "Shahsi",
+    "Duration": 3,
+    "Languages": [
+      "html",
+      "css",
+      "js",
+      "nodejs",
+      "reactjs",
+      "express js",
+      "mongodb"
+    ]
+  },
+  {
+    "course-name": "JavaStack",
+    "Trainer": "Dixith",
+    "Duration": 3,
+    "Languages": [
+      "html",
+      "css",
+      "js",
+      "nodejs",
+      "reactjs",
+      "Spring",
+      "Hibernate",
+      "mongodb"
+    ]
+  },
+  {
+    "course-name": "PythonStack",
+    "Trainer": "Gagan",
+    "Duration": 3,
+    "Languages": [
+      "html",
+      "css",
+      "js",
+      "nodejs",
+      "reactjs",
+      "Python",
+      "django",
+      "mongodb"
+    ]
+  }
+]

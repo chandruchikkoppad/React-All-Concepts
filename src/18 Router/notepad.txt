@@ -1,0 +1,12 @@
+add one library
+
+install react-router-dom@5.2.0
+
+dependencies to be imported are
+1{BrowserRouter,switch,route}
+
+uninstall react-router-dom@5.2.0
+npm cache clean --force
+//////! that is older version not been used any more 
+
+install react-router-dom@latest

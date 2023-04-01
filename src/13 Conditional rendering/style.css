@@ -1,0 +1,21 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+     background-color: #444;
+     color: #fff;
+}
+
+#mainBlock{
+   
+}
+table, tr,td,th{
+    border: 2px solid #fff;
+    border-collapse: collapse;
+    padding: 10px;
+}
+img{
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+}

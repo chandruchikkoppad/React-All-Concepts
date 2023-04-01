@@ -1,0 +1,184 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+  background-color: darkcyan;
+  color: wheat;
+}
+#main-page {
+  width: 100%;
+  height: 100vh;
+}
+#navBlock {
+position: relative;
+  width: 100%;
+  height: 20%;
+  overflow: hidden;
+  z-index: 1;
+}
+.logo{
+    flex-basis: 30%;
+}
+.logo>img{
+    transition: 0.8s all ease-in-out;
+}
+.logo>img:hover{
+    transform: scale(1.15) translateX(100%) translateY(5%);
+    transition: 0.8s all ease-in-out;
+    cursor: pointer;
+}
+.menu{
+    flex-basis: 70%;
+    align-items: center;
+    text-align: center;
+}
+.menu li{
+    margin-top: 20px;
+}
+.menu li a{
+margin-top: 10px;
+text-decoration: none;
+color: wheat;
+padding: 10px 20px;
+background-color: rgba(74, 73, 73, 0.313);
+border-bottom: 2px ridge rgba(218, 165, 32, 0.341);
+border-radius: 5px;
+width: 20%;
+font-weight: bold;
+transition: 0.3s all ease-in-out;
+}
+.menu li a:hover{
+transition: 0.3s all ease-in-out;
+background-color: goldenrod;
+color: darkcyan;
+}
+#login>form table{
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+}
+#login>form td{
+    padding: 10px;
+}
+#login>form input{
+    padding: 5px;
+    width: 100%;
+    height: 5vh;
+    border-radius: 10px;
+}
+#login>form fieldset{
+    border-radius: 50px 0;
+    border:  1px ridge goldenrod;
+}
+#login>form legend{
+    text-align: center;
+    color: goldenrod;
+}
+.log-button{
+    text-align: center;
+}
+.log-button button{
+    padding: 10px 20px;
+    background-color: goldenrod;
+    color: darkcyan;
+    border: none;
+    border-radius: 10px;
+    transition: 0.3s all ease-in-out;
+}
+.log-button button:hover{
+    background-color: darkcyan;
+    color: goldenrod;
+    border: 1px solid rgba(218, 165, 32, 0.838);
+    transform: scale(0.95);
+}
+.log-button button a:hover{
+    color: goldenrod;
+}
+.log-button button a{
+    text-decoration: none;
+    color: inherit;
+    font-weight: 700;
+}
+#register>form table{
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+}
+#register>form td{
+    padding: 10px;
+}
+#register>form input{
+    padding: 5px;
+    width: 100%;
+    height: 5vh;
+    border-radius: 10px;
+}
+#register>form fieldset{
+    border-radius: 50px 0;
+    border:  1px ridge goldenrod;
+}
+#register>form legend{
+    text-align: center;
+    color: goldenrod;
+}
+#register textarea{
+    padding: 5px;
+    width: 100%;
+    height: 8vh;
+    border-radius: 10px;
+}
+.log-button{
+    text-align: center;
+}
+.log-button button{
+    padding: 10px 20px;
+    background-color: goldenrod;
+    color: darkcyan;
+    border: none;
+    border-radius: 10px;
+}
+.log-button button a{
+    text-decoration: none;
+    color: darkcyan;
+    font-weight: 700;
+}
+.dashBoard>article{
+    width: 90%;
+    height: 80vh;
+    margin: 10px auto;
+    padding: 10px;
+    background-color: rgba(0, 139, 139, 0.797);
+}
+.dashBoard>article>h1{
+    border-bottom: 1px solid goldenrod;
+    margin-bottom: 10px;
+    font-size: xx-large;
+}
+.nested-menu ul{
+    display: flex;
+    list-style: none;
+    gap: 10px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.nested-menu ul li a{
+    text-decoration: none;
+    border-radius: 3px;
+    padding: 10px 20px;
+    color: wheat;
+    background-color: rgb(102, 150, 134);
+    border-bottom: 2px ridge goldenrod;
+}
+.nested-menu ul li a:hover{
+background-color: darkcyan;
+border:1px solid goldenrod;
+border-bottom: none;
+}
+.nested-menu ul li a:active{
+background-color: darkcyan;
+border:1px solid goldenrod;
+border-bottom: none;
+}
